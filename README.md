@@ -1,51 +1,23 @@
-# uAssets
+# UBO-Blazed
 
-This repository is for the resources of [uBlock Origin (uBO)](https://github.com/gorhill/uBlock). It receives all reports for new filters or existing filters that cause web page breakage. Any contributors are welcome. Contributors who are proven valuable will get write permissions to the repository.
+This repository is a fork of **[uBlockOrigin/uAssets](https://github.com/uBlockOrigin/uAssets)** maintained by BlazeFTL.
 
-The rationale for including a specific filter in uBO's filter lists is the same as the [EasyList/EasyPrivacy policies](https://easylist.to/pages/policy.html) and also takes into account whether a filter requires uBO's extended filter syntax.
+## 🎯 Purpose
+The sole purpose of this fork is to serve as a staging environment for developing and testing filter rules before submitting **Pull Requests** to the official uBlock Origin asset lists.
 
-It is preferred to fix filter issues in EasyList. Any filters included in uBO's filter lists must use the [extended syntax](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#extended-syntax).
+## 📈 Contribution Status
+I am an active contributor to the uAssets project. This fork helps facilitate the workflow for:
+* Submitting new filter rules and fixes.
+* Participating in community discussions regarding web blocks and privacy.
+* Maintaining a clean history for upstream merges.
 
-The EasyList-compatible fixes for high-traffic websites are added to uBO filters until they become added to EasyList.
+## 🔗 Quick Links
+* **My Pull Requests:** [View closed PRs on uAssets](https://github.com/uBlockOrigin/uAssets/issues?q=state%3Aclosed%20is%3Apr%20author%3A%40me)
+* **Community Discussions:** * [Discussion #27472](https://github.com/uBlockOrigin/uAssets/discussions/27472)
+    * [Discussion #17361](https://github.com/uBlockOrigin/uAssets/discussions/17361)
+* **Official Repo:** [uBlockOrigin/uAssets](https://github.com/uBlockOrigin/uAssets)
 
-#### uAssets will fix the following exceptions even if they do not require using the extended syntax:
+---
 
-- Ad-Reinsertion
-- Anti-Blocker
-- Context Menu Blockage
-- Cut/Copy/Paste Blockage
-- Popups/Popunders
-- Website Breakage
-- Video Ads
-
-#### uAssets will not address the following:
-
-- Paywalls
-- Porn Farms
-
-#### How to correctly report an issue
-
-- Disable all other browser extensions and see if the problem still persists
-
-- How to provide troubleshooting information:
-
-  If the problem persists, then please:
-  - On the problematic website, click the uBlock Origin icon
-  - Click the chat icon
-  - Click "Troubleshooting Information" to expand, and copy that information into the appropriate github issue.
-
-#### Support Forum
-
-For support, questions, or help, visit [/r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/).
-
-#### uBO Issues
-
-Report issues with uBO in the [uBO issue tracker](https://github.com/uBlockOrigin/uBlock-issues/issues).
-
-#### uBO Lite (uBOL) Issues
-
-Report issues specific to the Manifest Version 3 (MV3) variant in the [uBOL issue tracker](https://github.com/uBlockOrigin/uBOL-home/issues).
-
-#### Similarly-Purposed Blockers
-
-Do **NOT** use any other [similarly-purposed blockers](https://x.com/gorhill/status/1033706103782170625) concurrently with uBO. It can result in website breakage or undefined results.
+> [!IMPORTANT]  
+> This is a development fork. For the stable, production-ready filter lists, please refer to the official [uAssets](https://github.com/uBlockOrigin/uAssets) repository.
